@@ -8,3 +8,4 @@ parse_git_branch() {
 }
 
 export PS1="\[\e[96m\]\u@\[\e[95m\]\h \[\e[32m\]\w \[\e[93m\]\$(parse_git_branch)\[\e[00m\]$ "
+export PROMPT_DIRTRIM=2
