@@ -129,4 +129,4 @@ alias guns='git unstage'alias bd='./gradlew clean build'
 alias ver='./gradlew jacocoTestCoverageVerification'
 alias run='./gradlew clean bootRun'
 alias hard='git reset --hard origin/develop'
-alias test=./gradlew test
+alias test='./gradlew test'
