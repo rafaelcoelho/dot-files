@@ -134,3 +134,6 @@ alias hard='git reset --hard origin/develop'
 alias ts='./gradlew test'
 alias int='./gradlew integrationTest'
 alias bdr='./gradlew build --refresh-dependencies'
+
+alias gft='git fetch origin'
+alias grb='git rebase origin/'
