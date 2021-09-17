@@ -137,3 +137,4 @@ alias bdr='./gradlew build --refresh-dependencies'
 
 alias gft='git fetch origin'
 alias grb='git rebase origin/'
+alias explorer='xdg-open .  &>/dev/null'
