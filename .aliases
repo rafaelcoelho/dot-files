@@ -139,3 +139,4 @@ alias gft='git fetch origin'
 alias grb='git rebase origin/'
 alias explorer='xdg-open .  &>/dev/null'
 alias check='./gradlew checkstyleMain checkstyleTest checkstyleIntegrationTest checkstyleFunctionalTest sonarlintMain sonarlintTest sonarlintIntegrationTest sonarlintFunctionalTest test jacocoTestReport --console=verbose'
+alias slack="python3 /home/rcoelho/projects/github/slack-message-automation/slack.py "
