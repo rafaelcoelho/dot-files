@@ -9,3 +9,5 @@ parse_git_branch() {
 
 export PS1="\[\e[96m\]\u@\[\e[95m\]\h \[\e[32m\]\w \[\e[93m\]\$(parse_git_branch)\[\e[00m\]$ "
 export PROMPT_DIRTRIM=2
+
+git config --global alias.l "log --pretty=format'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
